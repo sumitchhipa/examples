@@ -1,0 +1,13 @@
+1. A namespace is a container where names (variables, functions, etc.) are mapped to objects. It ensures that each name is unique and does not interfere with names in other namespaces.
+Types of Namespaces:
+Local Namespace: Inside a function, it contains local variables.
+Global Namespace: In the main script, it contains globally defined names.
+Built-in Namespace: Contains Python's built-in functions and exceptions (e.g., len, print).
+
+2. The XOR operator (^) compares two binary numbers bit by bit. For each bit:
+If the bits are different, the result is 1.
+If the bits are the same, the result is 0.
+3. if condition:
+    # Code to execute if the condition is True
+else:
+    # Code to execute if the condition is False
