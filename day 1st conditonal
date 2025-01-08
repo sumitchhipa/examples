@@ -1,0 +1,40 @@
+num=int(input("Enter a Number"))
+if num%2==0:
+ print("The Number is divisible by 2")
+ if num%6==0:
+  print("The Number is divisible by 6")
+ else:
+  print("not divisible by 6")
+else:
+  print("not divisible by 2")
+------------------------------------------------------
+# Q.1
+num=int(input("Enter a Number"))
+if num%2==0:
+  print("The Number is Even")
+else:
+  print("The Number is Odd")
+---------------------------------------------------------
+#Q.2
+num1=int(input("Enter a Number"))
+num2=int(input("Enter a Number"))
+num3=int(input("Enter a Number"))
+if num1>num2 and num1>num3:
+  print("The Largest Number is",num1)
+elif num2>num1 and num2>num3:
+  print("The Largest Number is",num2)
+---------------------------------------------------------
+#Q.3
+year = int(input("Enter a year: "))
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print(f"{year} is a leap year.")
+        else:
+            print(f"{year} is not a leap year.")
+    else:
+        print(f"{year} is a leap year.")
+else:
+    print(f"{year} is not a leap year.")
+
+-----------------------------------------------------------
